@@ -1,0 +1,19 @@
+{
+    "name": "varian-reelz/query-parser",
+    "description": "Package for parsing request parameters to query using base Eloquent ORM",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Varian Tedja",
+            "email": "vatforcasual@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "VarianReelz\\QueryParser\\": "src/"
+        }
+    }
+}
