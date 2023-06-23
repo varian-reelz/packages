@@ -9,10 +9,11 @@ use Illuminate\Http\Request;
 class QueryParser {
     private $query;
 
-    public function __construct($modelClass) {
+    public function setModel($modelClass) {
         $model = app($modelClass);
         $key = $model->getKeyName();
         $this->query = $model->whereNotNull($key);
+        return $this;
     }
 
     public function select(?array $fields = []): self {
