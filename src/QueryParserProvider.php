@@ -1,6 +1,6 @@
 <?php
 
-namespace VarianReelz\QueryParser\Providers;
+namespace VarianReelz\QueryParser;
 
 use Illuminate\Support\ServiceProvider;
 use VarianReelz\QueryParser\QueryParser;
