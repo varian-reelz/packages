@@ -15,5 +15,15 @@
         "psr-4": {
             "VarianReelz\\QueryParser\\": "src/"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "VarianReelz\\QueryParser\\QueryParserProvider"
+            ],
+            "aliases": {
+                "QueryParser": "VarianReelz\\QueryParser\\QueryParserFacade"
+            }
+        }
     }
 }
